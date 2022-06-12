@@ -12,7 +12,6 @@ int next_delay = 300;       // Delay for next check of water level on the start
 int min_freq = 2;           // Minmal frequency
 int max_freq = 200;         // Maximal frequency
 
-// Uzreiz sarēķināsim periodus
 int min_t = 1000 / max_freq;  // Minimal period: Simple math T = 1/f
 int max_t = 1000 / min_freq;
 
